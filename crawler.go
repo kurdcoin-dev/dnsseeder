@@ -53,6 +53,7 @@ func crawlIP(s *dnsseeder, r *result) ([]*wire.NetAddress, *crawlError) {
 		UserAgentName:    "bitcoin-seeder", // User agent name to advertise.
 		UserAgentVersion: "1.0.0",          // User agent version to advertise.
 		ChainParams:      chainParams,
+		ProtocolVersion:  s.pver,
 		Services:         0,
 		Listeners: peer.MessageListeners{
 			OnAddr: func(p *peer.Peer, msg *wire.MsgAddr) {
