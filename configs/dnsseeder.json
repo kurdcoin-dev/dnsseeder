@@ -1,12 +1,10 @@
 {
- "Name": "SeederNet",
- "Desc": "Description of SeederNet",
- "Id": "0xabcdef01",
- "Port": 1234,
- "Pver": 70001,
- "DNSName": "seeder.example.com",
- "TTL": 600,
- "Seeder1": "seeder1.example.com",
- "Seeder2": "seed1.bob.com",
- "Seeder3": "seed2.example.com"
+ "Name": "kurdcoinx",
+ "Desc": "Description of krdx",
+ "Id": "0x0b0c0e12",
+ "Port": 11111,
+ "Pver": 70912,
+ "DNSName": "seed01.kurdcoin.org",
+ "TTL": 86400,
+ "Seeder1": "krdx01.kurdcoin.org"
 }
